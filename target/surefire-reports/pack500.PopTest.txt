@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: pack500.PopTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 102.323 s <<< FAILURE! - in pack500.PopTest
+spketest(pack500.PopTest)  Time elapsed: 20.205 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="javascript:void(0)" role="link" class="menu navLinks roboto-regular ng-scope" ng-click="gotoElement('popular_items')" translate="POPULAR_ITEMS" style="display: block; opacity: 1;">...</a> is not clickable at point (928, 34). Other element would receive the click: <div class="loader" style="display: block; opacity: 1;">...</div>
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-R5NPD3S', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16ba0fb96e75b32141aaa383f90b2952, clickElement {id=adef2c0c-1422-4d2b-b9b2-d0eaa56929f9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\91949\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57949/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (16ba0fb96e75b32141aaa383f90b2952)] -> link text: POPULAR ITEMS]
+Session ID: 16ba0fb96e75b32141aaa383f90b2952
+	at pack500.PopTest.spketest(PopTest.java:89)
+
